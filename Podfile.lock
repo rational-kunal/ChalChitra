@@ -1,0 +1,24 @@
+PODS:
+  - ffmpeg-kit-ios-full (6.0)
+  - M3U8Kit (1.1.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - ffmpeg-kit-ios-full (~> 6.0)
+  - M3U8Kit
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-full
+    - M3U8Kit
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-full: 0099a769d22114dde52cdc238397941c32f75d27
+  M3U8Kit: d0f2dae9736a35fc44b54bea10aeebcaa75215b3
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 2b4c3d726112dafb2b5ae9f3e70e4b7a31e50b7a
+
+COCOAPODS: 1.15.2

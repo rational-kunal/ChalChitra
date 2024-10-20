@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0862B0712CBADE3C00252C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862B0672CBADE3C00252C7C /* AppDelegate.swift */; };
+		0862B0722CBADE3C00252C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862B06E2CBADE3C00252C7C /* SceneDelegate.swift */; };
+		0862B0732CBADE3C00252C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862B06F2CBADE3C00252C7C /* ViewController.swift */; };
+		0862B0742CBADE3C00252C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862B0682CBADE3C00252C7C /* Assets.xcassets */; };
+		0862B0762CBADE3C00252C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862B06B2CBADE3C00252C7C /* LaunchScreen.storyboard */; };
+		0862B0772CBADE3C00252C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862B06D2CBADE3C00252C7C /* Main.storyboard */; };
+		087FC8982CBD871600127BAF /* ChalChitra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087FC8972CBD871000127BAF /* ChalChitra.swift */; };
+		087FC89C2CBD990F00127BAF /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087FC89B2CBD990F00127BAF /* TimelineView.swift */; };
+		087FC8A02CBD994600127BAF /* CMTime+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087FC89F2CBD994300127BAF /* CMTime+.swift */; };
+		0881AB2D2CC5597500AEDAAA /* Logger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881AB2C2CC5597500AEDAAA /* Logger+.swift */; };
+		0881AB372CC5660000AEDAAA /* MP4ToSampleBufferConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881AB362CC5660000AEDAAA /* MP4ToSampleBufferConverter.swift */; };
+		088F53782CBEBD73004E9EAA /* HLSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F53772CBEBD6E004E9EAA /* HLSManager.swift */; };
+		088F537A2CBECFF5004E9EAA /* M3U8MetadataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F53792CBECFF5004E9EAA /* M3U8MetadataService.swift */; };
+		7DD2A2D49A256CA2EF124321 /* Pods_ChalChitra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F799834C171D52917950394 /* Pods_ChalChitra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037D6D9581E4067BCC1FCE9E /* Pods-ChalChitra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChalChitra.release.xcconfig"; path = "Target Support Files/Pods-ChalChitra/Pods-ChalChitra.release.xcconfig"; sourceTree = "<group>"; };
+		0862B03F2CBAC3CB00252C7C /* ChalChitra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalChitra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0862B0672CBADE3C00252C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0862B0682CBADE3C00252C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0862B0692CBADE3C00252C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0862B06A2CBADE3C00252C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0862B06C2CBADE3C00252C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0862B06E2CBADE3C00252C7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0862B06F2CBADE3C00252C7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		087FC8972CBD871000127BAF /* ChalChitra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalChitra.swift; sourceTree = "<group>"; };
+		087FC89B2CBD990F00127BAF /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		087FC89F2CBD994300127BAF /* CMTime+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime+.swift"; sourceTree = "<group>"; };
+		0881AB2C2CC5597500AEDAAA /* Logger+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+.swift"; sourceTree = "<group>"; };
+		0881AB362CC5660000AEDAAA /* MP4ToSampleBufferConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4ToSampleBufferConverter.swift; sourceTree = "<group>"; };
+		088F53772CBEBD6E004E9EAA /* HLSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSManager.swift; sourceTree = "<group>"; };
+		088F53792CBECFF5004E9EAA /* M3U8MetadataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3U8MetadataService.swift; sourceTree = "<group>"; };
+		4F799834C171D52917950394 /* Pods_ChalChitra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChalChitra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03F2B9EDCE80CA7835B42B5 /* Pods-ChalChitra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChalChitra.debug.xcconfig"; path = "Target Support Files/Pods-ChalChitra/Pods-ChalChitra.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0862B03C2CBAC3CB00252C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD2A2D49A256CA2EF124321 /* Pods_ChalChitra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0862B0362CBAC3CB00252C7C = {
+			isa = PBXGroup;
+			children = (
+				0862B0702CBADE3C00252C7C /* ChalChitra */,
+				0862B0402CBAC3CB00252C7C /* Products */,
+				82444B53683F9D21C716DA41 /* Pods */,
+				722D403834C4770192AE11ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0862B0402CBAC3CB00252C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0862B03F2CBAC3CB00252C7C /* ChalChitra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0862B0702CBADE3C00252C7C /* ChalChitra */ = {
+			isa = PBXGroup;
+			children = (
+				0881AB332CC5641200AEDAAA /* LogicLayer */,
+				0881AB322CC5635800AEDAAA /* Common */,
+				0881AB302CC5631400AEDAAA /* ViewLayer */,
+				0862B0672CBADE3C00252C7C /* AppDelegate.swift */,
+				0862B0682CBADE3C00252C7C /* Assets.xcassets */,
+				0862B0692CBADE3C00252C7C /* Info.plist */,
+				0862B06B2CBADE3C00252C7C /* LaunchScreen.storyboard */,
+				0862B06D2CBADE3C00252C7C /* Main.storyboard */,
+				0862B06E2CBADE3C00252C7C /* SceneDelegate.swift */,
+				0862B06F2CBADE3C00252C7C /* ViewController.swift */,
+			);
+			path = ChalChitra;
+			sourceTree = "<group>";
+		};
+		0881AB302CC5631400AEDAAA /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				087FC8972CBD871000127BAF /* ChalChitra.swift */,
+				087FC89B2CBD990F00127BAF /* TimelineView.swift */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		0881AB322CC5635800AEDAAA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				087FC89F2CBD994300127BAF /* CMTime+.swift */,
+				0881AB2C2CC5597500AEDAAA /* Logger+.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0881AB332CC5641200AEDAAA /* LogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0881AB362CC5660000AEDAAA /* MP4ToSampleBufferConverter.swift */,
+				088F53772CBEBD6E004E9EAA /* HLSManager.swift */,
+				088F53792CBECFF5004E9EAA /* M3U8MetadataService.swift */,
+			);
+			path = LogicLayer;
+			sourceTree = "<group>";
+		};
+		722D403834C4770192AE11ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F799834C171D52917950394 /* Pods_ChalChitra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82444B53683F9D21C716DA41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03F2B9EDCE80CA7835B42B5 /* Pods-ChalChitra.debug.xcconfig */,
+				037D6D9581E4067BCC1FCE9E /* Pods-ChalChitra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0862B03E2CBAC3CB00252C7C /* ChalChitra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0862B0522CBAC3CD00252C7C /* Build configuration list for PBXNativeTarget "ChalChitra" */;
+			buildPhases = (
+				72B2B3450E010A6DCC6DA3E5 /* [CP] Check Pods Manifest.lock */,
+				0862B03B2CBAC3CB00252C7C /* Sources */,
+				0862B03C2CBAC3CB00252C7C /* Frameworks */,
+				0862B03D2CBAC3CB00252C7C /* Resources */,
+				D08E9D550635E8ED92783CE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChalChitra;
+			productName = ChalChitra;
+			productReference = 0862B03F2CBAC3CB00252C7C /* ChalChitra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0862B0372CBAC3CB00252C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0862B03E2CBAC3CB00252C7C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 0862B03A2CBAC3CB00252C7C /* Build configuration list for PBXProject "ChalChitra" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0862B0362CBAC3CB00252C7C;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 0862B0402CBAC3CB00252C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0862B03E2CBAC3CB00252C7C /* ChalChitra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0862B03D2CBAC3CB00252C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0862B0742CBADE3C00252C7C /* Assets.xcassets in Resources */,
+				0862B0762CBADE3C00252C7C /* LaunchScreen.storyboard in Resources */,
+				0862B0772CBADE3C00252C7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72B2B3450E010A6DCC6DA3E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChalChitra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08E9D550635E8ED92783CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChalChitra/Pods-ChalChitra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChalChitra/Pods-ChalChitra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChalChitra/Pods-ChalChitra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0862B03B2CBAC3CB00252C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0862B0712CBADE3C00252C7C /* AppDelegate.swift in Sources */,
+				0862B0722CBADE3C00252C7C /* SceneDelegate.swift in Sources */,
+				088F53782CBEBD73004E9EAA /* HLSManager.swift in Sources */,
+				088F537A2CBECFF5004E9EAA /* M3U8MetadataService.swift in Sources */,
+				0881AB2D2CC5597500AEDAAA /* Logger+.swift in Sources */,
+				087FC8982CBD871600127BAF /* ChalChitra.swift in Sources */,
+				0881AB372CC5660000AEDAAA /* MP4ToSampleBufferConverter.swift in Sources */,
+				087FC89C2CBD990F00127BAF /* TimelineView.swift in Sources */,
+				087FC8A02CBD994600127BAF /* CMTime+.swift in Sources */,
+				0862B0732CBADE3C00252C7C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0862B06B2CBADE3C00252C7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0862B06A2CBADE3C00252C7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0862B06D2CBADE3C00252C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0862B06C2CBADE3C00252C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0862B0532CBAC3CD00252C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03F2B9EDCE80CA7835B42B5 /* Pods-ChalChitra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZBQ22Z6S;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChalChitra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rational.ChalChitra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0862B0542CBAC3CD00252C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037D6D9581E4067BCC1FCE9E /* Pods-ChalChitra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZBQ22Z6S;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChalChitra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rational.ChalChitra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0862B0552CBAC3CD00252C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0862B0562CBAC3CD00252C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0862B03A2CBAC3CB00252C7C /* Build configuration list for PBXProject "ChalChitra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0862B0552CBAC3CD00252C7C /* Debug */,
+				0862B0562CBAC3CD00252C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0862B0522CBAC3CD00252C7C /* Build configuration list for PBXNativeTarget "ChalChitra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0862B0532CBAC3CD00252C7C /* Debug */,
+				0862B0542CBAC3CD00252C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0862B0372CBAC3CB00252C7C /* Project object */;
+}
